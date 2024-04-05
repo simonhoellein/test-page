@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>test page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.19/marked.min.js"></script>
+  
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+</head>
+<body>
+    <h1>TEST PAGE</h1>
+    <div>
+        This is a simple Test page
+    </div>
+    <script>
+        function text(url) {
+            return fetch(url).then(res => res.text());
+        }
+
+        text('https://www.cloudflare.com/cdn-cgi/trace')
+    </script>
+</body>
+</html>
